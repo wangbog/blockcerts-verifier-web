@@ -1,8 +1,8 @@
 # @wangbog/blockcerts-verifier-web
 
-A node.js web(express) for blockcerts verifier based on @wangbog/blockcerts-verifier.
+基于node.js的web展示项目(express)，用于验证并展示blockcerts证书，其引用了@wangbog/blockcerts-verifier项目。
 
-**Note:** @wangbog/blockcerts-verifier (or the Blockcerts official source @blockcerts/blockcerts-verifier) is actually a browser-side component(javascript), the verification process is actually performed from client browsers, which means the blockchain APIs are requested directly from client browsers. The key thing that blockcerts-verifier dose is to define a <blockcerts-verifier> tag, so in this web project we can use it directly in our html code.
+**注：** @wangbog/blockcerts-verifier项目（以及对应的Blockcerts官方项目@blockcerts/blockcerts-verifier），本质上就是一个浏览器控件（javascript），验证的流程其实是由用户浏览器发起的，这意味着对应的区块链API的请求是有用户浏览器发起的查询。blockcerts-verifier提供的最核心的功能就是它定义了blockcerts-verifier这个HTML标签，所以在本web项目中，我们直接在HTML代码中使用这个标签即可。
 
 # Production
 Clone this project from git:
